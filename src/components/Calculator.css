@@ -1,0 +1,117 @@
+.all{
+    height: 100vh;
+    background-image: linear-gradient(to top, #30d0ad 0%, #31006d 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    text-shadow: 3px 3px 20px #ffffff79,
+    -2px 1px 30px #ffffff7e,0 2px 1px #747474, 
+    -1px 3px 1px #767676, 
+    -2px 5px 1px #787878; 
+    color: rgb(255, 255, 255);
+    font-family: 'Dancing Script', cursive;
+
+    font-size: 70px;
+    margin-top: -150px;
+}
+
+.contact{
+    text-shadow: 3px 3px 20px #ffffff79,
+    -2px 1px 30px #ffffff7e,0 2px 1px #747474, 
+    -1px 3px 1px #767676, 
+    -2px 5px 1px #787878; 
+    color: rgb(255, 255, 255);
+    font-family: 'Dancing Script', cursive;
+    margin-top: 50px;
+}
+
+.button{
+    text-shadow: 3px 0px 7px rgba(0, 0, 0, 0.8), -3px 0px 7px rgba(0, 0, 0, 0.8);
+    color: white;
+    background-color: rgb(54, 54, 54);
+    font-size: 30px;
+    border: none;
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.backGreen:hover{
+    background-color: green;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(26, 25, 25);
+}
+
+.container{
+    align-self: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 15px;
+    background-color: black;
+    height: 570px;
+    width: 350px;
+}
+
+.result{
+    max-width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top:50px ;
+    font-size: 50px;
+    margin-left: 20px;
+    text-align: end;
+    color: white;
+}
+
+.orange{
+    color: orangered;
+}
+
+.green{
+    color: lime;
+}
+
+.backGreen{
+    background-color: lime;
+}
+
+.icons{
+    width: 400px;
+    border-top: #764ba2 solid 1px;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .icon{
+    color: #ffffff;
+    transition: 1s;
+  }
+  
+  .icon-git:hover{
+    color: black;
+  }
+  
+  .icon-lkdn:hover{
+    color:#0e76a8;
+  }
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.clearButton{
+    width: 140px;
+}
